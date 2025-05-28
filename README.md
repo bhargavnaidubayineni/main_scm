@@ -22,19 +22,12 @@ The implementation relies solely on standard HTML and CSS.
 ⚡ Local Setup Instructions ⚡
 To run this project locally, follow these steps:
 
-Obtain the Code: Download the project files, typically provided as a ZIP archive.
-Extract Files: Uncompress the downloaded archive to access the project directory.
-Launch: Open the index.html file in your preferred web browser.
-Upon successful execution, the AMITY EVENT HUB must be on your browser.
+Obtain the Code: Download the project files, typically provided as a ZIP archive.                                                                                      Extract Files: Uncompress the downloaded archive to access the project directory.                                                                                      Launch: Open the index.html file in your preferred web browser.                                                                                                           Upon successful execution, the AMITY EVENT HUB must be on your browser.
 
 🧑‍💻 Development Team 🧑‍💻
 This project was developed by the following individuals:
 
-Bayineni Bhargav naidu
-Dhruthi Padasalgi
-Chethan K
-Rohith
-Chilla Meenaamrutha
+Bayineni Bhargav naidu                                                                                                                                                 Dhruthi Padasalgi                                                                                                                                                      Chethan K                                                                                                                                                                Rohith                                                                                                                                                                  Chilla Meenaamrutha
 
 🙏 Heartfelt Appreciation 🙏
 I extend my sincere gratitude to Dr. Monit Kapoor for his invaluable instruction and guidance on Source Code Management concepts, which played a crucial role in shaping this project.
