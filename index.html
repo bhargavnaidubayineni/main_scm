@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Club Portal</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo"><i class="fas fa-users"></i> ClubHub</div>
+        <ul>
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#clubs"><i class="fas fa-robot"></i> Clubs</a></li>
+            <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li><!--commit1-in git remove event from nav bar. -->
+            <li><a href="#about"><i class="fas fa-info-circle"></i>About us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="glow">Welcome to <span>ClubHub</span></h1>
+        <p>Your gateway to campus organizations</p>
+        <a href="clubs.html" class="cta-button">Explore Clubs</a>
+    </section>
+
+    <!-- Featured Clubs -->
+    <section id=clubs class="featured-clubs">
+        <h2><i class="fas fa-star"></i> Featured Clubs</h2>
+        
+        <div class="club-card">
+            <div class="club-text">
+                <h3>Tech Club</h3>
+                <p>Join our hackathons and AI workshops every Wednesday at CS Department</p>
+                <div class="club-stats">
+                    <span><i class="fas fa-users"></i> 120+ Members</span>
+                    <span><i class="fas fa-trophy"></i> 5 Awards</span>
+                </div>
+                <a href="clubs.html#tech" class="learn-more-btn">Learn More <i class="fas fa-arrow-right"></i></a><!--commit2-in git linkin tech club page. -->
+            </div>
+            <div class="club-image">
+                <img src="tech.jpg" alt="Tech Club">
+            </div>
+        </div>
+
+        <div class="club-card">
+            <div class="club-text">
+                <h3>Dance Club</h3>
+                <p>Audition for our annual Shakespeare play starting next month!</p>
+                <div class="club-stats">
+                    <span><i class="fas fa-users"></i> 80+ Members</span>
+                    <span><i class="fas fa-trophy"></i> 3 Awards</span>
+                </div>
+                <a href="clubs.html#drama" class="learn-more-btn">Learn More <i class="fas fa-arrow-right"></i></a><!--commit3-in git linkin dance club page. -->
+            </div>
+            <div class="club-image">
+                <img src="dance.jpeg" alt="Dance Club">
+            </div>
+        </div>
+
+            <div class="club-card">
+            <div class="club-text">
+                <h3>Sports Club</h3>
+                <p>Join our hackathons and AI workshops every Wednesday at CS Department</p>
+                <div class="club-stats">
+                    <span><i class="fas fa-users"></i> 120+ Members</span>
+                    <span><i class="fas fa-trophy"></i> 5 Awards</span>
+                </div>
+                <a href="clubs.html#tech" class="learn-more-btn">Learn More <i class="fas fa-arrow-right"></i></a><!--commit4-in git linkin sports club page. -->
+            </div>
+            <div class="club-image">
+                <img src="sports.jpg" alt="Tech Club">
+            </div>
+        </div>
+
+        <div class="club-card">
+            <div class="club-text">
+                <h3>Music Club</h3>
+                <p>Join our hackathons and AI workshops every Wednesday at CS Department</p>
+                <div class="club-stats">
+                    <span><i class="fas fa-users"></i> 120+ Members</span>
+                    <span><i class="fas fa-trophy"></i> 5 Awards</span>
+                </div>
+                <a href="clubs.html#tech" class="learn-more-btn">Learn More <i class="fas fa-arrow-right"></i></a><!--commit5-in git linkin music club page. -->
+            </div>
+            <div class="club-image">
+                <img src="music.jpg" alt="Tech Club">
+            </div>
+        </div>
+
+        
+    </section>
+
+    <script src="scripts/main.js"></script>
+    <!-- Footer Section -->
+    <footer id="about" class="site-footer">
+    <div class="footer-container">
+        <!-- Quick Links -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                <li><a href="clubs.html"><i class="fas fa-chevron-right"></i> Clubs</a></li>
+                <li><a href="events.html"><i class="fas fa-chevron-right"></i> Events</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> College Road, Campus District</li>
+                <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                <li><i class="fas fa-envelope"></i> clubs@yourcollege.edu</li>
+            </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" ><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <!-- Newsletter -->
+            <div class="newsletter">
+                <h4>Subscribe to Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&copy; 2025 College Club Portal. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg class="progress-circle" width="50" height="50">
+            <circle class="progress-circle-track" cx="25" cy="25" r="22"/>
+            <circle class="progress-circle-fill" cx="25" cy="25" r="22"/>
+        </svg>
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
