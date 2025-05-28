@@ -434,7 +434,6 @@ html {
     50% { box-shadow: 0 0 0 10px rgba(113, 76, 234, 0.3); }
     100% { box-shadow: 0 0 0 0 rgba(113, 76, 234, 0); }
 }
-/* Back to Top Button */
 .back-to-top {
     position: fixed;
     bottom: 30px;
